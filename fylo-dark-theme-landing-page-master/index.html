@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+ <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  
+  <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
+</head>
+<body class="bg-[#1c2431] w-full">
+  <header class="h-20 flex items-center">
+     <nav class="flex justify-between items-center w-11/12 container mx-auto">
+      <img src="./images/logo.svg" alt="" class=" w-24 md:w-[130px] lg:w-[150px]">
+     <div class="text-white text-lg space-x-3 md:space-x-6 ">
+       <a href="" class="hover:font-bold hover:underline">Features</a>
+       <a href="" class="hover:font-bold hover:underline">Team</a>
+       <a href="" class="hover:font-bold hover:underline">Sign In</a>
+     </div>
+   </nav>
+  </header>
+  
+  
+  <section class="flex flex-col justify-center items-center bg-[url('/images/bg-curvy-desktop.svg')] bg-no-repeat bg-bottom">
+   <div class="w-[90%] md:w-[80%] lg:w-[60%] xl:w-[50%] container mx-auto space-y-10">
+     <img src="./images/illustration-intro.png" alt="">
+     <div class="text-white text-center flex flex-col items-center gap-8">
+       <h3 class="text-2xl md:text-4xl font-bold md:leading-12 lg:leading-14">All your files in one secure location, accessible anywhere.</h3>
+       <p class="text-base md:text-lg w-[95%] md:w-[70%]"> Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers</p>
+       <button class="bg-cyan-500 py-2.5 px-16 rounded-4xl">Get Started</button>
+       
+     </div>
+   </div>
+  </section>
+
+  <section class="text-white bg-[#181f2a] py-16">
+   <div class=" lg:w-[80%] xl:w-[70%] grid md:grid-cols-2 container mx-auto  gap-20 md:gap-7 lg:gap-12">
+    <div class="flex flex-col justify-center items-center text-center gap-6 ">
+      <img src="./images/icon-access-anywhere.svg" alt="">
+      <div class=" w-[80%] space-y-3">
+        <h3 class="font-bold text-xl">Access your files, anywhere</h3>
+        <p>The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.</p>
+      </div>
+    </div>
+    <div class="flex flex-col justify-center items-center text-center gap-6">
+      <img src="./images/icon-security.svg" alt="">
+      <div class="w-[80%] space-y-3">
+        <h3 class="font-bold text-xl">Security you can trust</h3>
+        <p>2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.</p>
+      </div>
+    </div>
+    <div class="flex flex-col justify-center items-center text-center gap-6">
+      <img src="./images/icon-collaboration.svg" alt="">
+      <div class="w-[80%] space-y-3">
+        <h3 class="font-bold text-xl"> Real-time collaboration</h3>
+        <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
+      </div>
+    </div>
+    <div class="flex flex-col justify-center items-center text-center gap-6">
+      <img src="./images/icon-any-file.svg" alt="">
+      <div class="w-[80%] space-y-3">
+        <h3 class="font-bold text-xl">Store any type of file</h3>
+        <p>Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.</p>
+      </div>
+    </div>
+   </div>
+  </section>
+
+  <section class="bg-[#181f2a]">
+    <div class="flex flex-col lg:flex-row items-center comtainer mx-auto w-11/12 gap-16">
+      <div class=" w-full lg:w-1/2">
+       <img src="./images/illustration-stay-productive.png" alt="" class="w-full">
+      </div>
+      <div class="text-white w-full lg:w-1/2 space-y-5">
+        <h1 class="text-2xl md:text-4xl w-auto lg:w-[70%] font-bold xl:w-1/2">Stay productive, wherever you are</h1>
+        <p class="w-[95%] xl:w-[80%]">Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
+        <p class="w-full xl:w-[85%]">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
+        <button class="text-teal-200 hover:text-white flex border-b hover:border-white cursor-pointer pb-2 gap-1.5 items-center">See how Fylo works <img src="./images/icon-arrow.svg" alt="" class="h-3 w-3"></button>
+      </div>
+    </div>
+    
+  </section>
+
+  <section class="relative bg-[#181f2a]">
+    <img src="./images/bg-quotes.png" alt="">
+    <div class="grid grid-cols-3 ">
+
+     <div class=" flex absolute top-7 text-white bg-[#202a3c] justify-center items-center text-center  w-[70%] ">
+       <div class="">
+          <p> Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has  become a well-oiled collaboration machine.</p>
+          <div class="flex ">
+           <img src="./images/profile-1.jpg" alt="" class="rounded-full">
+           <div class="">
+             <h4>Satish Patel</h4>
+             <p> Founder & CEO, Huddle</p>
+           </div>
+         </div>
+       </div>
+       <div class="">
+         <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+         <div class="">
+           <img src="./images/profile-2.jpg" alt="" class="rounded-full">
+           <div class="">
+             <h4>Bruce McKenzie</h4>
+             <p>Founder & CEO, Huddle</p>
+           </div>
+         </div>
+       </div>
+       <div class="">
+          <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+         <div class="">
+           <img src="./images/profile-3.jpg" alt="" class="rounded-full">
+           <div class="">
+             <h4>Iva Boyd</h4>
+             <p>Founder & CEO, Huddle</p>
+           </div>
+         </div>
+       </div>
+     </div>
+    </div>
+  </section>
+
+  <footer class="bg-[#0b1523] pt-24 pb-16">
+    <div class="w-11/12 container mx-auto text-white space-y-10">
+      <img src="./images/logo.svg" alt="">
+     <div class="grid grid-cols-1 lg:grid-cols-4 gap-10 lg:gap-5 xl:gap-8">
+       <div class="flex gap-9">
+         <img src="./images/icon-location.svg" alt="" class="w-4 h-4">
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+       </div>
+      
+       <ul class="space-y-3">
+         <li class="flex gap:5 xl:gap-8 items center"><img src="./images/icon-phone.svg" alt="">+1-543-123-4567</li>
+         <li  class="flex gap-5 xl:gap-8 items center"><img src="./images/icon-email.svg" alt=""> example@fylo.com</li>
+       </ul>
+
+       <ul class="space-y-3">
+         <li><a href="" class="hover:font-bold cursor-pointer">About Us</a></li>
+         <li><a href="" class="hover:font-bold cursor-pointer">Jobs</a></li>
+         <li><a href=""class="hover:font-bold cursor-pointer">Press</a></li>
+         <li><a href=""class="hover:font-bold cursor-pointer">Blog</a></li>
+        </ul>
+
+       <ul class="space-y-3">
+         <li><a href=""class="hover:font-bold cursor-pointer">Contact Us</a></li>
+         <li><a href=""class="hover:font-bold cursor-pointer">Terms</a></li>
+         <li><a href=""class="hover:font-bold cursor-pointer">Privacy</a></li>
+         </ul>
+     </div>
+   </div>
+  </footer>
+
+
+  <!-- Features
+  Team
+  Sign In
+
+  Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
+  become a well-oiled collaboration machine.
+
+  Satish Patel
+  Founder & CEO, Huddle
+
+  Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
+  become a well-oiled collaboration machine.
+
+  Bruce McKenzie
+  Founder & CEO, Huddle
+
+  Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
+  become a well-oiled collaboration machine.
+
+  Iva Boyd
+  Founder & CEO, Huddle
+
+  Get early access today
+
+  It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
+  questions, our support team would be happy to help you.
+
+  Get Started For Free
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer> -->
+</body>
+</html>
